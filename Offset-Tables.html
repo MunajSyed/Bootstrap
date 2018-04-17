@@ -1,0 +1,73 @@
+<!-- DOCTYPE HTML -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!--Tell internet explorer to use the latest rendering engine **ALWAYS INCLUDE**-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--Set page width to size of device and set zome level to 1-->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+<title>Bootstrap Tutorial</title>
+
+<!--CDN = Content Delivery Network-->
+<!--Linking Bootstrap to our page, -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<!-- Whenever you work with grid you have to have a container and a row -->
+<div class="container">
+    <div class="row">
+        <!-- Set the table to go to the right of the screen when pass medium  -->
+        <div class="col-md-6 col-md-offset-6">
+            <!-- Table-Bordered, put a boarder around the whole table -->
+            <!-- Table-Stripes, put a stripes to outline rows and columns -->
+            <!-- Table-Hover, highlights where the mouse is on the table-->
+            <table class="table table-bordered table-stripped table-hover">
+                <thead>
+                    <tr>
+                        <!-- colspan, take up 4 spaces to put best baseball players -->
+                        <td colspan="4">Best Baseball Players</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- Column to take up only 2 spaces -->
+                        <th class="col-md-2"></td>
+
+                        <!-- Use text alignment like text-center or text-right -->
+                        <th class="text-center">Average</td>
+                        <th class="text-center">RBIs</td>
+                        <th class="text-center">Homeruns</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Hank Aaron*</a></td>
+                        <td>.305</td>
+                        <td>2297</td>
+                        <td>755</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Babe Ruth*</a></td>
+                        <td>.342</td>
+                        <td>2214</td>
+                        <td>714</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Barry Bonds</a></td>
+                        <td>.298</td> 
+                        <td>2216</td>
+                        <td>759</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--Used to called jquery and java script, calling bootstrap script too-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

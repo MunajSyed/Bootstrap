@@ -1,0 +1,41 @@
+<!-- DOCTYPE HTML -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!--Tell internet explorer to use the latest rendering engine **ALWAYS INCLUDE**-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--Set page width to size of device and set zome level to 1-->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+<title>Bootstrap Tutorial</title>
+
+<!--CDN = Content Delivery Network-->
+<!--Linking Bootstrap to our page, -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<!-- Whenever you work with grid you have to have a container and a row -->
+<div class="container">
+    <div class="well hidden-sm hidden-md hidden-lg">
+        <!-- Keep hidden till less than 768 -->
+        <p>Screen &lt; 768px</p>
+    </div>
+    <div class="well hidden-md hidden-lg">
+        <p>Screen &gt;= 768px and &lt; 992px</p>
+    </div>
+    <div class="well hidden-lg">
+        <p>Screen &gt;= 992px and &lt; 1200px</p>
+    </div>
+    <div class="well">
+        <p>Screen &lt; 1200px</p>
+    </div>
+</div>
+
+<!--Used to called jquery and java script, calling bootstrap script too-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

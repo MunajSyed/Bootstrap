@@ -1,0 +1,131 @@
+<!-- DOCTYPE HTML -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!--Tell internet explorer to use the latest rendering engine **ALWAYS INCLUDE**-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--Set page width to size of device and set zome level to 1-->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+<title>Bootstrap Tutorial</title>
+
+<!--CDN = Content Delivery Network-->
+<!--Linking Bootstrap to our page, -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <!--Columns run on 12 sections, column large take 3 sections, column medium take up 3 and column small take up 6, column xs take up 12-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h4>Column 1</h4>
+                dued asd afas ksdglknaklsf s fkasdlgkLS sdkf kSDFKLjsfkjSKFD Jlk jfsJ K SDJKF KJ KJAHFAFJDAJFAKLJ ALSKAJ KLAS JLKAS JFASJ FLKAJFJSHGASDKJN
+                ASDASDASDASDASFADA DASFASFD ASFA AS DA DASD AS FASF ASDASDFADSGF AG ASDG AG FADH GSHDF
+                A GAFDG FADG AFG ADFG 
+                 AGFADG AGASDG ASDASDSADAS
+                 SAD
+                 SAD
+                 ASD
+                 SADDSASADASDSADASD
+                 SADASDASFASFSA
+                 SAFSAF
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Column 2</h4>
+                    dued asd afas ksdglknaklsf s fkasdlgkLS sdkf kSDFKLjsfkjSKFD Jlk jfsJ K SDJKF KJ KJAHFAFJDAJFAKLJ ALSKAJ KLAS JLKAS JFASJ FLKAJFJSHGASDKJN
+                    ASDASDASDASDASFADA DASFASFD ASFA AS DA DASD AS FASF ASDASDFADSGF AG ASDG AG FADH GSHDF
+                    A GAFDG FADG AFG ADFG 
+                    SFSA
+                     SAFSAF
+            </div>
+            <!--Make sure theres no gaps as you shrink the screen, clear the fix when the screen is small, can change to lg where it is-->
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h4>Column 3</h4>
+                        dued asd afas ksdglknaklsf s fkasdlgkLS sdkf kSDFKLjsfkjSKFD Jlk jfsJ K SDJKF KJ KJAHFAFJDAJFAKLJ ALSKAJ KLAS JLKAS JFASJ FLKAJFJSHGASDKJN
+                        ASDASDASDASDASFADA DASFASFD ASFA AS DA DASD AS FASF ASDASDFADSGF AG ASDG AG FADH GSHDF
+                        A GAFDG FADG AFG ADFG 
+                         AGFADG AGASDG ASDASDSADAS
+                         SAD
+                         SAD
+                         ASD
+                         SADDSASADASDSADASD
+                         SADASDASFASFSA
+                         SAFSAF
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <h4>Column 4</h4>
+                            dued asd afas ksdglknaklsf s fkasdlgkLS sdkf kSDFKLjsfkjSKFD Jlk jfsJ K SDJKF KJ KJAHFAFJDAJFAKLJ ALSKAJ KLAS JLKAS JFASJ FLKAJFJSHGASDKJN
+                            ASDASDASDASDASFADA DASFASFD ASFA AS DA DASD AS FASF ASDASDFADSGF AG ASDG AG FADH GSHDF
+                            A GAFDG FADG AFG ADFG 
+                             AGFADG AGASDG ASDASDSADAS
+                             SAD
+                             SAD
+                             ASD
+                             SADDSASADASDSADASD
+                             SADASDASFASFSA
+                             SAFSAF
+                    </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-mid-2 col-sm-4 col-xs-12">
+            <h4>
+                <a href="#col1Content" data-toggle="collapse">Column 1</a>
+            </h4>
+        <!--Make a column appear and disapear from a link-->
+        <div id="col1Content" class="collapse in">
+            asdasdsfDF
+            fdaSFASDASDDFDG DF K ASFKJ FJAS FJASFA
+            AHUASDJWEA AJ ASJ AKASD 
+             ASJDNASDIJKADS AL ASL DLAK KAJSKJKAJFKLAJF LAFASJ LAJF LKAS 
+             AK FLKASJF KL] AKASK AS]
+             SA AFKLAKASJFKLA
+             ADASDG D ADF FA AFSFA 
+        </div>
+        </div>
+        <div class="col-lg-4 col-mid-4 col-sm-8 col-xs-12">
+                <h4>
+                    <a href="#col2Content" data-toggle="collapse">Column 2</a>
+                </h4>
+            <!--Make a column appear and disapear from a link-->
+            <div id="col2Content" class="collapse">
+                asdasdsfDF
+                fdaSFASDASDDFDG DF K ASFKJ FJAS FJASFA
+                AHUASDJWEA AJ ASJ AKASD 
+                 ASJDNASDIJKADS AL ASL DLAK KAJSKJKAJFKLAJF LAFASJ LAJF LKAS 
+                 AK FLKASJF KL] AKASK AS]
+                 SA AFKLAKASJFKLA
+                 ADASDG D ADF FA AFSFA 
+            </div>
+            </div>
+            <div class="col-lg-6 col-mid-6 col-sm-12 col-xs-12">
+                    <h4>
+                        <a href="#col3Content" data-toggle="collapse">Column 3</a>
+                    </h4>
+                <!--Make a column appear and disapear from a link-->
+                <div id="col3Content" class="collapse">
+                    asdasdsfDF
+                    fdaSFASDASDDFDG DF K ASFKJ FJAS FJASFA
+                    AHUASDJWEA AJ ASJ AKASD 
+                     ASJDNASDIJKADS AL ASL DLAK KAJSKJKAJFKLAJF LAFASJ LAJF LKAS 
+                     AK FLKASJF KL] AKASK AS]
+                     SA AFKLAKASJFKLA
+                     ADASDG D ADF FA AFSFA 
+                </div>
+                </div>
+    </div>
+</div>
+
+<!--Used to called jquery and java script, calling bootstrap script too-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
